@@ -1,0 +1,26 @@
+#Take User Input Choice And print Output:
+movie = []
+book = []
+while True:
+    print("""
+                1 for movie name
+                2 for book name
+                3 for exit""")
+    option = int(input("Choose Any option:"))
+    if option == 1:
+        while True:
+            user = input("Enter your favorite movie name:")
+            print("If you want to exit then type exit")
+            if user =='exit':
+                break
+                movie.append(user)
+        print(movie)
+    elif option == 2:
+        while True:
+            book_user=input("Enter your favorite book name:")
+            if user =='exit':
+                break
+            book.append(book_user)
+        print(book)
+    elif option == 3:
+        break
