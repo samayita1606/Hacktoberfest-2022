@@ -1,0 +1,7 @@
+#Create a File Help of Python Programming
+f = open('file.txt', mode='w')
+f.write('Hello Sam...\n')
+f.write('Welcome...\n     to Python Programming:)\n')
+f.write('This is my 1st file created with the help of PYTHON.')
+f.close()
+print('Well Done....\n Your File Created Successful...')
