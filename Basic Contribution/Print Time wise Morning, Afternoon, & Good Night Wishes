@@ -1,0 +1,9 @@
+from time import time, localtime, ctime
+sam=localtime()
+hours=sam.tm_hour
+if hours<=12:
+    print("Good Morning Sam...")
+elif hours>=5:
+    print("Its Evening Time")
+else:
+    print("Good Night Sam:)")
